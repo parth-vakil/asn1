@@ -1,0 +1,65 @@
+html {
+  background-repeat:no-repeat;
+  min-height: 100%;
+
+  width: 100%;
+  height: auto;
+}
+body
+{
+  position: relative;
+  text-align: center;
+
+
+}
+
+#table
+{
+
+  position: relative;
+  display: inline-block;
+  float: center;
+  max-width: 76%;
+  border-radius: 3px;
+
+}
+
+.cell
+{
+  opacity: .7;
+  background: #d1e6d2;
+  cursor: pointer;
+}
+.header-top
+{
+  opacity: .7;
+  background: #d1e6d2;
+  font-size: 1em;
+  text-decoration-style: bold;
+  user-select: none;
+}
+
+@keyframes winMove {
+  80%  {color: blue; font-size: 3vw;}
+  100% {color: red; font-size: 6vw;}
+}
+.button
+{
+  margin: 7px 0px;
+  padding: 5px 5px;
+  border: black solid 7px;
+
+  color: white;
+
+  cursor: pointer;
+  font-size: 2vw;
+  display: none;
+
+
+}
+.buttons
+{
+  display:inline-block;
+  float: right;
+
+}
